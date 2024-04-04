@@ -13,10 +13,11 @@ import user5 from "../assets/profile-pictures/user5.jpg";
 import user6 from "../assets/profile-pictures/user6.jpg";
 
 export const navItems = [
-  { label: "Features", href: "#" },
-  { label: "Workflow", href: "#" },
-  { label: "Pricing", href: "#" },
-  { label: "Testimonials", href: "#" },
+  { label: "Home", href: "/" },
+  { label: "Features", href: "features" },
+  { label: "Workflow", href: "workflow" },
+  { label: "Pricing", href: "pricing" },
+  { label: "Testimonials", href: "test" },
 ];
 
 export const testimonials = [
@@ -24,37 +25,37 @@ export const testimonials = [
     user: "John Doe",
     company: "Stellar Solutions",
     image: user1,
-    text: "I am extremely satisfied with the services provided. The team was responsive, professional, and delivered results beyond my expectations.",
+    text: "Our developers have seen a 25% increase in productivity thanks to Prometheus's LLM. Code completion and error detection are a breeze, freeing up our team to focus on innovation.",
   },
   {
     user: "Jane Smith",
     company: "Blue Horizon Technologies",
     image: user2,
-    text: "I couldn't be happier with the outcome of our project. The team's creativity and problem-solving skills were instrumental in bringing our vision to life",
+    text: "With Prometheus's LLM, we can finally conduct comprehensive code reviews without worrying about missing vulnerabilities. Their security checks and best practice recommendations give us peace of mind.",
   },
   {
     user: "David Johnson",
     company: "Quantum Innovations",
     image: user3,
-    text: "Working with this company was a pleasure. Their attention to detail and commitment to excellence are commendable. I would highly recommend them to anyone looking for top-notch service.",
+    text: "Before Prometheus's LLM, troubleshooting code blockages was a time-consuming nightmare. Now, our developers can quickly overcome challenges and get back on track thanks to the LLM's insightful assistance.",
   },
   {
     user: "Ronee Brown",
     company: "Fusion Dynamics",
     image: user4,
-    text: "Working with the team at XYZ Company was a game-changer for our project. Their attention to detail and innovative solutions helped us achieve our goals faster than we thought possible. We are grateful for their expertise and professionalism!",
+    text: "Data-driven decision making is crucial for our business. Prometheus's LLM provides us with valuable insights into application performance and user behavior, allowing us to optimize our software and deliver a superior user experience.",
   },
   {
     user: "Michael Wilson",
     company: "Visionary Creations",
     image: user5,
-    text: "I am amazed by the level of professionalism and dedication shown by the team. They were able to exceed our expectations and deliver outstanding results.",
+    text: "Integrating security into the development process is paramount. Prometheus's LLM is a game-changer. Real-time vulnerability detection and mitigation capabilities ensure our code is secure by design, protecting our users and data.",
   },
   {
     user: "Emily Davis",
     company: "Synergy Systems",
     image: user6,
-    text: "The team went above and beyond to ensure our project was a success. Their expertise and dedication are unmatched. I look forward to working with them again in the future.",
+    text: "Since implementing Prometheus's LLM, our development team has experienced a significant reduction in errors and rework. The LLM's seamless integration with our existing workflow has streamlined development and boosted overall team efficiency.",
   },
 ];
 
@@ -63,60 +64,60 @@ export const features = [
     icon: <BotMessageSquare />,
     text: "Drag-and-Drop Interface",
     description:
-      "Easily design and arrange your VR environments with a user-friendly drag-and-drop interface.",
+      "Build your LLM in minutes with our intuitive drag-and-drop interface.",
   },
   {
     icon: <Fingerprint />,
     text: "Multi-Platform Compatibility",
     description:
-      "Build VR applications that run seamlessly across multiple platforms, including mobile, desktop, and VR headsets.",
+      "Build LLms that run seamlessly across multiple platforms, including mobile, desktop, and VR headsets.",
   },
   {
     icon: <ShieldHalf />,
     text: "Built-in Templates",
     description:
-      "Jumpstart your VR projects with a variety of built-in templates for different types of applications and environments.",
+      "Jumpstart your LLms with a variety of built-in templates for different types of applications and environments.",
   },
   {
     icon: <BatteryCharging />,
     text: "Real-Time Preview",
     description:
-      "Preview your VR application in real-time as you make changes, allowing for quick iterations and adjustments.",
+      "See your LLM come to life with instant real-time previews",
   },
   {
     icon: <PlugZap />,
     text: "Collaboration Tools",
     description:
-      "Work together with your team in real-time on VR projects, enabling seamless collaboration and idea sharing.",
+      "Work together with your team in real-time on LLMs,  enabling seamless collaboration and idea sharing.",
   },
   {
     icon: <GlobeLock />,
     text: "Analytics Dashboard",
     description:
-      "Gain valuable insights into user interactions and behavior within your VR applications with an integrated analytics dashboard.",
+      "Gain valuable insights into user interactions and behavior within your LLM with an integrated analytics dashboard.",
   },
 ];
 
 export const checklistItems = [
   {
-    title: "Code merge made easy",
+    title: "Code Complete, Stress-Free",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Get instant code completion and real-time error detection with our LLM, streamlining your development workflow",
   },
   {
-    title: "Review code without worry",
+    title: "Breakthrough Block? We've Got You",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Stuck on a coding challenge? Leverage our LLM's assistance to overcome roadblocks and accelerate development.",
   },
   {
-    title: "AI Assistance to reduce time",
+    title: "Data-Driven Decisions",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Gain valuable insights into application performance and user behavior with our LLM's advanced analytics tools.",
   },
   {
-    title: "Share work in minutes",
+    title: "Code Secure by Design",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Integrate robust security features directly into your development workflow with our LLM's real-time vulnerability detection and mitigation capabilities.",
   },
 ];
 
@@ -125,30 +126,35 @@ export const pricingOptions = [
     title: "Free",
     price: "$0",
     features: [
-      "Private board sharing",
-      "5 Gb Storage",
-      "Web Analytics",
-      "Private Mode",
+      "Limited number of training data points",
+      "Drag-and-drop interface for basic LLM workflows",
+      "Access to core LLM functionalities "," Text generation, sentiment analysis",
+      "Real-time preview",
     ],
   },
   {
     title: "Pro",
     price: "$10",
     features: [
-      "Private board sharing",
-      "10 Gb Storage",
-      "Web Analytics (Advance)",
-      "Private Mode",
+      "All Starter features +",
+      "Increased training data capacity",
+      "Access to advanced LLM functionalities ",
+      "Customizable model parameters",
+      "Team collaboration features",
+      "Priority support",
+
     ],
   },
   {
     title: "Enterprise",
     price: "$200",
     features: [
-      "Private board sharing",
-      "Unlimited Storage",
-      "High Performance Network",
-      "Private Mode",
+      "All Pro features +",
+      "Dedicated account manager",
+      "Custom LLM development services",
+      "High-volume training data support",
+      "Scalable cloud-based training infrastructure ",
+      " Advanced security and compliance features",
     ],
   },
 ];
