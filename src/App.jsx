@@ -8,6 +8,7 @@ import Pricing from "./components/Pricing";
 import Home from "./components/Home";
 import Testimonials from "./components/Testimonials";
 import Demo from "./components/Demo";
+import Portfolio from "./components/Portfolio";
 
 const App = () => {
   return (
@@ -37,6 +38,8 @@ const App = () => {
           <Route path="/pricing" element={<Pricing />} />   {/* Pricing route */}
           <Route path="/test" element={<Testimonials />} />  {/* Testimonials route */}
           <Route path="/demo" element={<Demo />} />  {/* Demo route */}
+          <Route path="/portfolio" element={<Portfolio />} />  {/* portfolio route */}
+          
       
          
         </Routes>

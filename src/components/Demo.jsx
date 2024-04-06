@@ -14,7 +14,7 @@ const Demo = () => {
         </span>
       </h1>
       <p className="mt-10 text-lg text-center text-neutral-500 max-w-4xl">
-      <b>Prompt : </b> Can you give a python code to read a file. 
+      <b>Prompt : </b> Can you write a java code for a proxy server. 
       </p>
      
       <div className="flex mt-10 justify-center">
@@ -39,7 +39,7 @@ const Demo = () => {
         </span>
       </h1>
       <p className="mt-10 text-lg text-center text-neutral-500 max-w-4xl">
-      <b>Prompt : </b> Can you write a java code for a proxy server. 
+      <b>Prompt : </b>Can you give a python code to read a file. 
       </p>
       <div className="flex mt-10 justify-center">
         <video
